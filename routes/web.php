@@ -14,9 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('master');
-});
+// Route::get('/', function () {
+//     return view('master');
+// });
 
-Route::get('/', [HomeController::class,'home']);
-Route::get('/charcoal', [HomeController::class,'charcoal']);
+// Route::get('/', [HomeController::class,'home']);
+// Route::get('/charcoal', [HomeController::class,'charcoal']);
+
+Route::get('/{any}', function () {
+    return view('layouts.vue');
+})->where('any','.*');

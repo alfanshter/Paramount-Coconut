@@ -11,7 +11,7 @@
     <!-- Favicons -->
     <link href="{{asset('img/favicon.png')}}" rel="icon" />
     <link href="{{asset('img/apple-touch-icon.png')}}" rel="apple-touch-icon" />
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -50,7 +50,7 @@
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo"><img  src="{{asset('img/logo.png')}}"  width="150" alt=""></h1>
+        <h1 class="logo"><img  src="{{asset('img/logo.png')}}"  alt=""></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -132,7 +132,10 @@
     <script src="{{asset('vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
     <script src="{{asset('vendor/swiper/swiper-bundle.min.js')}}"></script>
     <script src="{{asset('vendor/php-email-form/validate.js')}}"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     <!-- Template Main JS File -->
     <script src="{{asset('js/main.js')}}"></script>
   </body>

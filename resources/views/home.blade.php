@@ -5,15 +5,15 @@
 @section('konten')
 <main id="main">
    <!-- ======= Our Product Export Section ======= -->
- <section id="testimonials" class="testimonials">
-  <div class="container">
+  <section id="testimonials" class="testimonials" >
+  <div class="container" data-aos="fade-left" >
 
-    <div class="section-title" data-aos="fade-up">
+    <div class="section-title" data-aos="fade-up" data-aos-duration="1000">
       <h2>Products</h2>
       <h3>Our Product For <span>Export</span></h3>
     </div>
 
-    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-duration="2000">
       <div class="swiper-wrapper">
 
         <div class="swiper-slide">
@@ -52,8 +52,8 @@
       <div class="swiper-pagination"></div>
     </div>
 
-  </div>
-  </section>
+   </div>
+   </section>
   <!-- End Our Product Export Section -->
 
 
@@ -131,13 +131,9 @@
         </div>
       </section><!-- END PRODUCT NEW Section -->
   
-
-
-
-
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="section-title">
           <h2>Services</h2>
           <h3>Why <span>Us ?</span></h3>
@@ -149,7 +145,7 @@
 
         <div class="row">
           <div
-            class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0"
+            class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100"
           >
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
@@ -164,7 +160,7 @@
           </div>
 
           <div
-            class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0"
+            class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100"
           >
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
@@ -178,7 +174,7 @@
           </div>
 
           <div
-            class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0"
+            class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100"
           >
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
@@ -280,7 +276,7 @@
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
-      <div class="container">
+      <div class="container" data-aos="flip-left" data-aos-delay="100">
         <div class="text-center">
           <h3>Call To Action</h3>
           <p>
@@ -329,16 +325,16 @@
     </section>
     <!-- End Lab Test Section --> --}}
 
-    <!-- ======= Portfolio Section ======= -->
+    <!-- ======= Shipment Section ======= -->
     <section id="portfolio" class="portfolio">
-      <div class="container">
+      <div class="container" data-aos="fade-right" >
         <div class="section-title">
           <h2>Shipment</h2>
           <h3>Check our <span>Shipment</span></h3>
         </div>
 
         <div class="row portfolio-container">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="zoom-in" >
             <img
               src="{{asset('img/shipment/image1.png')}}"
               class="img-fluid"
@@ -355,7 +351,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-right" >
             <img
               src="{{asset('img/shipment/image2.png')}}"
               class="img-fluid"
@@ -372,7 +368,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-right" >
             <img
             src="{{asset('img/shipment/image3.png')}}"
             class="img-fluid"
@@ -389,7 +385,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-right" >
             <img
             src="{{asset('img/shipment/image4.png')}}"
             class="img-fluid"
@@ -408,7 +404,7 @@
         </div>
       </div>
     </section>
-    <!-- End Portfolio Section -->
+    <!-- End Shipment Section -->
 
  <!-- ======= Our Product Pictures Section ======= -->
  <section id="testimonials" class="testimonials">
@@ -488,14 +484,14 @@
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team" style="background-color: black">
-      <div class="container" >
+      <div class="container" fade-up >
         <div class="section-title">
           <h2>Team</h2>
           <h3>Our Hardworking <span>Team</span></h3>
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-right">
             <div class="member">
               <div class="member-img">
                 <img
@@ -516,7 +512,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-left">
             <div class="member">
               <div class="member-img">
                 <img
@@ -537,7 +533,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-right">
             <div class="member">
               <div class="member-img">
                 <img
