@@ -92,10 +92,6 @@
                 <div class="section-title">
                     <h2>Services</h2>
                     <h3>Why <span>Us ?</span></h3>
-                    <!-- <p>
-            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-            adipisci expedita at voluptas atque vitae autem.
-          </p> -->
                 </div>
 
                 <div class="row">
@@ -283,7 +279,7 @@
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>sales@charcoaloka.com</p>
+                                <p>sales@paramountcoconuts.com</p>
                             </div>
 
                             <div class="phone">

@@ -14,7 +14,11 @@
                     </div>
 
                     <div>
-                        <p class="text-pageabout">
+                        <p
+                            class="text-pageabout"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                        >
                             Paramount Coconut is a Private Company that has been
                             exported coconut products since 2015. We start first
                             at exporting coconut charcoal globally at 2015. we
@@ -44,7 +48,11 @@
                             you. Feel free to contact us through our Whatsapp
                             for any inquiries
                         </p>
-                        <a class="cta-btn" href="#">Contact our Whatsapp</a>
+                        <a
+                            class="cta-btn"
+                            href="https://wa.me/+6282258294190?text"
+                            >Contact our Whatsapp</a
+                        >
                     </div>
                 </div>
             </section>
@@ -64,7 +72,11 @@
                             you. Feel free to contact us through our email for
                             any inquiries
                         </p>
-                        <a class="cta-btn" href="#">Contact our whatsapp</a>
+                        <a
+                            class="cta-btn"
+                            href="mailto: sales@paramountcoconuts.com"
+                            >Contact our Email</a
+                        >
                     </div>
                 </div>
             </section>
