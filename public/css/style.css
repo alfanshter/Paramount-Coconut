@@ -1365,6 +1365,47 @@ section {
 }
 
 /*--------------------------------------------------------------
+# menu-cocopeat
+--------------------------------------------------------------*/
+.menu-cocopeat .menu-cocopeat-item {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.menu-cocopeat .menu-cocopeat-item .menu-cocopeat-wrap h2 {
+    color: #6bb64a;
+    margin-top: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 400;
+}
+
+.menu-cocopeat .menu-cocopeat-item .paragraf p {
+    margin-top: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-cocopeat-wrap p {
+    margin-top: 20px;
+    color: #6bb64a;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.menu-cocopeat-wrap {
+    transition: transform 0.4s;
+}
+
+.menu-cocopeat-wrap:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+/*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
 .faq {

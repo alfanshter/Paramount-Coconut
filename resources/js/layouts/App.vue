@@ -82,9 +82,10 @@
         <!-- End Footer -->
 
         <a
+            style="margin: 4%"
             href="https://wa.me/+6282258294190?text"
             class="back-to-top d-flex align-items-center justify-content-center"
-            ><img src="https://img.icons8.com/color/48/000000/whatsapp--v3.png"
+            ><img src="img/whatsapp.png" height="80px" width="80px"
         /></a>
     </div>
 </template>

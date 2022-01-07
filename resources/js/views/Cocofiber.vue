@@ -334,7 +334,7 @@
                     >
                         <div
                             data-bs-toggle="collapse"
-                            href="#faq3"
+                            href="#faq4"
                             class="collapsed question"
                         >
                             COULD WE HAVE OUR OWN CUSTOM DESIGN AND BRAND FOR
@@ -362,7 +362,7 @@
                     >
                         <div
                             data-bs-toggle="collapse"
-                            href="#faq3"
+                            href="#faq5"
                             class="collapsed question"
                         >
                             what Is The Payment Term?
@@ -385,7 +385,7 @@
                     >
                         <div
                             data-bs-toggle="collapse"
-                            href="#faq3"
+                            href="#faq6"
                             class="collapsed question"
                         >
                             Could We Visit The Factory ?

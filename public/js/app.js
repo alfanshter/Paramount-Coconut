@@ -28728,13 +28728,12 @@ var staticRenderFns = [
       {
         staticClass:
           "back-to-top d-flex align-items-center justify-content-center",
+        staticStyle: { margin: "4%" },
         attrs: { href: "https://wa.me/+6282258294190?text" },
       },
       [
         _c("img", {
-          attrs: {
-            src: "https://img.icons8.com/color/48/000000/whatsapp--v3.png",
-          },
+          attrs: { src: "img/whatsapp.png", height: "80px", width: "80px" },
         }),
       ]
     )
@@ -29790,7 +29789,7 @@ var staticRenderFns = [
                 "div",
                 {
                   staticClass: "collapsed question",
-                  attrs: { "data-bs-toggle": "collapse", href: "#faq3" },
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq4" },
                 },
                 [
                   _vm._v(
@@ -29832,7 +29831,7 @@ var staticRenderFns = [
                 "div",
                 {
                   staticClass: "collapsed question",
-                  attrs: { "data-bs-toggle": "collapse", href: "#faq3" },
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq5" },
                 },
                 [
                   _vm._v(
@@ -29868,7 +29867,7 @@ var staticRenderFns = [
                 "div",
                 {
                   staticClass: "collapsed question",
-                  attrs: { "data-bs-toggle": "collapse", href: "#faq3" },
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq6" },
                 },
                 [
                   _vm._v(
@@ -29922,284 +29921,307 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("main", { attrs: { id: "main" } }, [
+    _c("br"),
+    _c("br"),
+    _vm._v(" "),
+    _c("section", { staticClass: "menu-cocopeat" }, [
+      _c("div", { staticClass: "container" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("div", { staticClass: "row menu-cocopeat-container" }, [
+          _c(
+            "div",
+            {
+              staticClass: "menu-cocopeat-item filter-app",
+              attrs: {
+                "data-aos": "zoom-in",
+                "data-aos-duration": "3000",
+                "data-aos-offset": "200",
+              },
+            },
+            [
+              _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
+                _c(
+                  "svg",
+                  {
+                    staticClass: "bi bi-arrow-up-circle",
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      width: "120",
+                      height: "120",
+                      fill: "currentColor",
+                      viewBox: "0 0 16 16",
+                    },
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        "fill-rule": "evenodd",
+                        d: "M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z",
+                      },
+                    }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c("h2", [_vm._v("High EC")]),
+                _vm._v(" "),
+                _vm._m(1),
+              ]),
+              _vm._v(" "),
+              _vm._m(2),
+            ]
+          ),
+        ]),
+        _vm._v(" "),
+        _vm._m(3),
+      ]),
+    ]),
+    _vm._v(" "),
+    _vm._m(4),
+  ])
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("main", { attrs: { id: "main" } }, [
-      _c("br"),
-      _c("br"),
-      _vm._v(" "),
-      _c("section", { staticClass: "services", attrs: { id: "labtest" } }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "section-title" }, [
-            _c("h2", [_vm._v("Lab Test")]),
-            _vm._v(" "),
-            _c("h3", [_vm._v("Our "), _c("span", [_vm._v("Lab Test ?")])]),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0",
-                attrs: { "data-aos": "fade-right" },
-              },
-              [
-                _c("div", { staticClass: "icon-box" }, [
-                  _c("img", {
-                    attrs: {
-                      src: "img/labtest/test1.jpeg",
-                      width: "100%",
-                      alt: "",
-                      he: "",
-                    },
-                  }),
-                ]),
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0",
-                attrs: { "data-aos": "fade-left" },
-              },
-              [
-                _c("div", { staticClass: "icon-box" }, [
-                  _c("img", {
-                    attrs: {
-                      src: "img/labtest/test1.jpeg",
-                      width: "100%",
-                      alt: "",
-                      he: "",
-                    },
-                  }),
-                ]),
-              ]
-            ),
-          ]),
-        ]),
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "portfolio" }, [
-        _c("div", { staticClass: "container" }, [
-          _c(
-            "div",
-            {
-              staticClass: "section-title",
-              attrs: { "data-aos": "fade-up", "data-aos-delay": "100" },
-            },
-            [
-              _c("h2", [_vm._v("Shipment")]),
-              _vm._v(" "),
-              _c("h3", [
-                _vm._v("Check our "),
-                _c("span", [_vm._v("Shipment")]),
-              ]),
-            ]
+    return _c(
+      "div",
+      {
+        staticClass: "section-title",
+        attrs: {
+          "data-aos": "fade-up",
+          "data-aos-duration": "500",
+          "data-aos-offset": "200",
+        },
+      },
+      [
+        _c("h2", [_vm._v("Products")]),
+        _vm._v(" "),
+        _c("h3", [_vm._v("Our Premium "), _c("span", [_vm._v("Coco Fiber")])]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "menu-cocopeat-info" }, [
+      _c("div", { staticClass: "menu-cocopeat-links" }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "paragraf",
+        attrs: { "data-aos": "fade-up", "data-aos-duration": "3000" },
+      },
+      [
+        _c("p", [
+          _vm._v(
+            "\n                            A multi purpose growing medium made out of\n                            coconut husk.\n                        "
           ),
-          _vm._v(" "),
-          _c("div", { staticClass: "row portfolio-container" }, [
-            _c(
-              "div",
-              {
-                staticClass: "col-lg-4 col-md-6 portfolio-item filter-app",
-                attrs: { "data-aos": "zoom-in" },
-              },
-              [
-                _c("img", {
-                  staticClass: "img-fluid",
-                  attrs: { src: "img/shipment/image0.jpeg", alt: "" },
-                }),
-                _vm._v(" "),
-                _c("div", { staticClass: "portfolio-info" }, [
-                  _c("p", [_vm._v("To Saudi Arabia")]),
-                ]),
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "col-lg-4 col-md-6 portfolio-item filter-app",
-                attrs: { "data-aos": "fade-right" },
-              },
-              [
-                _c("img", {
-                  staticClass: "img-fluid",
-                  attrs: { src: "img/shipment/image2.jpeg", alt: "" },
-                }),
-                _vm._v(" "),
-                _c("div", { staticClass: "portfolio-info" }, [
-                  _c("p", [_vm._v("To USA")]),
-                ]),
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "col-lg-4 col-md-6 portfolio-item filter-app",
-                attrs: { "data-aos": "fade-right" },
-              },
-              [
-                _c("img", {
-                  staticClass: "img-fluid",
-                  attrs: { src: "img/shipment/image3.png", alt: "" },
-                }),
-                _vm._v(" "),
-                _c("div", { staticClass: "portfolio-info" }, [
-                  _c("p", [_vm._v("To Lebanon")]),
-                ]),
-              ]
-            ),
-          ]),
         ]),
-      ]),
-      _vm._v(" "),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "\n                            High water holding capacity makes it an ideal\n                            growing medium for the plant crops. Its 100%\n                            organic and eco friendly, free from soil borne\n                            patoghen and weed.\n                        "
+          ),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row menu-cocopeat-container" }, [
       _c(
-        "section",
-        { staticClass: "testimonials", attrs: { id: "testimonials" } },
+        "div",
+        {
+          staticClass: "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
+          attrs: {
+            "data-aos": "zoom-in",
+            "data-aos-duration": "500",
+            "data-aos-offset": "200",
+          },
+        },
         [
-          _c("div", { staticClass: "container" }, [
-            _c(
-              "div",
-              {
-                staticClass: "section-title",
-                attrs: { "data-aos": "fade-up" },
+          _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
+            _c("img", {
+              attrs: {
+                src: "img/cocopeat/10.png",
+                alt: "",
+                width: "120",
+                height: "120",
               },
-              [
-                _c("h2", [_vm._v("Products")]),
-                _vm._v(" "),
-                _c("h3", [
-                  _vm._v("Our Premium "),
-                  _c("span", [_vm._v("Charcoal")]),
-                ]),
-              ]
-            ),
+            }),
             _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass: "testimonials-slider swiper",
-                attrs: { "data-aos": "fade-up", "data-aos-delay": "100" },
-              },
-              [
-                _c("div", { staticClass: "swiper-wrapper" }, [
-                  _c("div", { staticClass: "swiper-slide" }, [
-                    _c("div", { staticClass: "kotak-charcoal" }, [
-                      _c("img", {
-                        staticClass: "d-block w-100",
-                        attrs: {
-                          src: "img/produk/image1.jpeg",
-                          alt: "...",
-                          height: "100%",
-                        },
-                      }),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "kotak-info" }, [
-                        _c("p", [_vm._v("Super Premium Charcoal")]),
-                        _vm._v(" "),
-                        _c("a", {
-                          staticClass: "portfolio-lightbox preview-link",
-                          attrs: {
-                            src: "img/shipment/image1.png",
-                            "data-gallery": "portfolioGallery",
-                            title: "App 1",
-                          },
-                        }),
-                      ]),
-                    ]),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "swiper-slide" }, [
-                    _c("div", { staticClass: "kotak-charcoal" }, [
-                      _c("img", {
-                        staticClass: "d-block w-100",
-                        attrs: {
-                          src: "img/produk/image2.jpeg",
-                          alt: "...",
-                          height: "100%",
-                        },
-                      }),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "kotak-info" }, [
-                        _c("p", [_vm._v("Premium Charcoal")]),
-                      ]),
-                    ]),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "swiper-slide" }, [
-                    _c("div", { staticClass: "kotak-charcoal" }, [
-                      _c("img", {
-                        staticClass: "d-block w-100",
-                        attrs: {
-                          src: "img/produk/image3.png",
-                          alt: "...",
-                          height: "100%",
-                        },
-                      }),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "kotak-info" }, [
-                        _c("p", [_vm._v("Premium Charcoal")]),
-                      ]),
-                    ]),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "swiper-slide" }, [
-                    _c("div", { staticClass: "kotak-charcoal" }, [
-                      _c("img", {
-                        staticClass: "d-block w-100",
-                        attrs: {
-                          src: "img/produk/image4.jpeg",
-                          alt: "...",
-                          height: "100%",
-                        },
-                      }),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "kotak-info" }, [
-                        _c("p", [_vm._v("Hexagon")]),
-                      ]),
-                    ]),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "swiper-pagination" }),
-              ]
-            ),
+            _c("p", [_vm._v("Could be used for more than 10 years")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "menu-cocopeat-info" }, [
+              _c("div", { staticClass: "menu-cocopeat-links" }),
+            ]),
           ]),
         ]
       ),
       _vm._v(" "),
-      _c("section", { staticClass: "contact", attrs: { id: "contact" } }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "section-title" }, [
-            _c("h2", [_vm._v("Location")]),
-            _vm._v(" "),
-            _c("h3", [
-              _vm._v(
-                "\n                    Click to see factory location in\n                    "
-              ),
-              _c("span", [_vm._v("Google Maps")]),
-            ]),
-          ]),
-          _vm._v(" "),
-          _c("div", [
-            _c("iframe", {
-              staticStyle: { border: "0", width: "100%", height: "270px" },
+      _c(
+        "div",
+        {
+          staticClass: "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
+          attrs: {
+            "data-aos": "zoom-in",
+            "data-aos-duration": "500",
+            "data-aos-offset": "200",
+          },
+        },
+        [
+          _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
+            _c("img", {
               attrs: {
-                src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.5119200718186!2d108.1746641147744!3d-7.18227489481446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f4f497519ccb1%3A0x2b88345d4aae224b!2sCv%20Mandiri%20Persada!5e0!3m2!1sen!2sid!4v1640295084311!5m2!1sen!2sid",
-                frameborder: "0",
-                allowfullscreen: "",
+                src: "img/cocopeat/recommended.png",
+                alt: "",
+                width: "120",
+                height: "120",
               },
             }),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "\n                            Highly recommended for hydroponic and anthurium\n                        "
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "menu-cocopeat-info" }, [
+              _c("div", { staticClass: "menu-cocopeat-links" }),
+            ]),
           ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
+          attrs: {
+            "data-aos": "zoom-in",
+            "data-aos-duration": "500",
+            "data-aos-offset": "200",
+          },
+        },
+        [
+          _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
+            _c("img", {
+              attrs: {
+                src: "img/cocopeat/friend.png",
+                alt: "",
+                width: "120",
+                height: "120",
+              },
+            }),
+            _vm._v(" "),
+            _c("p", [_vm._v("Environmental Friendly")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "menu-cocopeat-info" }, [
+              _c("div", { staticClass: "menu-cocopeat-links" }),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-lg-6 col-md-6 menu-cocopeat-item filter-app",
+          attrs: {
+            "data-aos": "zoom-in",
+            "data-aos-duration": "500",
+            "data-aos-offset": "200",
+          },
+        },
+        [
+          _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
+            _c("img", {
+              attrs: {
+                src: "img/cocopeat/ph.png",
+                alt: "",
+                width: "120",
+                height: "120",
+              },
+            }),
+            _vm._v(" "),
+            _c("p", [_vm._v("Neutral PH")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "menu-cocopeat-info" }, [
+              _c("div", { staticClass: "menu-cocopeat-links" }),
+            ]),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-lg-6 col-md-6 menu-cocopeat-item filter-app",
+          attrs: {
+            "data-aos": "zoom-in",
+            "data-aos-duration": "500",
+            "data-aos-offset": "200",
+          },
+        },
+        [
+          _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
+            _c("img", {
+              attrs: {
+                src: "img/cocopeat/growth.png",
+                alt: "",
+                width: "120",
+                height: "120",
+              },
+            }),
+            _vm._v(" "),
+            _c("p", [_vm._v("Help root growth quickly")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "menu-cocopeat-info" }, [
+              _c("div", { staticClass: "menu-cocopeat-links" }),
+            ]),
+          ]),
+        ]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "contact", attrs: { id: "contact" } }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "section-title" }, [
+          _c("h2", [_vm._v("Location")]),
+          _vm._v(" "),
+          _c("h3", [
+            _vm._v(
+              "\n                    Click to see factory location in\n                    "
+            ),
+            _c("span", [_vm._v("Google Maps")]),
+          ]),
+        ]),
+        _vm._v(" "),
+        _c("div", [
+          _c("iframe", {
+            staticStyle: { border: "0", width: "100%", height: "270px" },
+            attrs: {
+              src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.5119200718186!2d108.1746641147744!3d-7.18227489481446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f4f497519ccb1%3A0x2b88345d4aae224b!2sCv%20Mandiri%20Persada!5e0!3m2!1sen!2sid!4v1640295084311!5m2!1sen!2sid",
+              frameborder: "0",
+              allowfullscreen: "",
+            },
+          }),
         ]),
       ]),
     ])
