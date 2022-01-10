@@ -67,7 +67,7 @@
 
                 <div class="row menu-cocofiber-container">
                     <div
-                        class="col-lg-4 col-md-6 menu-cocofiber-item filter-app"
+                        class="col-lg-3 col-md-6 menu-cocofiber-item filter-app"
                         data-aos="zoom-in"
                         data-aos-duration="500"
                         data-aos-offset="200"
@@ -86,15 +86,15 @@
                                 />
                             </svg>
 
-                            <h2>Ash Content</h2>
-                            <p>2,5% Max</p>
+                            <h2>Fiber Length</h2>
+                            <p>15 - 25cm</p>
                             <div class="menu-cocofiber-info">
                                 <div class="menu-cocofiber-links"></div>
                             </div>
                         </div>
                     </div>
                     <div
-                        class="col-lg-4 col-md-6 menu-cocofiber-item filter-app"
+                        class="col-lg-3 col-md-6 menu-cocofiber-item filter-app"
                         data-aos="zoom-in"
                         data-aos-duration="500"
                         data-aos-offset="200"
@@ -113,15 +113,15 @@
                                 />
                             </svg>
 
-                            <h2>ASH Colour</h2>
-                            <p>White/Grey</p>
+                            <h2>Moisture</h2>
+                            <p>+- 18 %</p>
                             <div class="menu-cocofiber-info">
                                 <div class="menu-cocofiber-links"></div>
                             </div>
                         </div>
                     </div>
                     <div
-                        class="col-lg-4 col-md-6 menu-cocofiber-item filter-app"
+                        class="col-lg-3 col-md-6 menu-cocofiber-item filter-app"
                         data-aos="zoom-in"
                         data-aos-duration="500"
                         data-aos-offset="200"
@@ -140,7 +140,7 @@
                                 />
                             </svg>
 
-                            <h2>Moisture</h2>
+                            <h2>Impurity</h2>
                             <p>5% Max.</p>
                             <div class="menu-cocofiber-info">
                                 <div class="menu-cocofiber-links"></div>
@@ -148,7 +148,7 @@
                         </div>
                     </div>
                     <div
-                        class="col-lg-4 col-md-6 menu-cocofiber-item filter-app"
+                        class="col-lg-3 col-md-6 menu-cocofiber-item filter-app"
                         data-aos="zoom-in"
                         data-aos-duration="500"
                         data-aos-offset="200"
@@ -167,62 +167,8 @@
                                 />
                             </svg>
 
-                            <h2>Fix Carbon</h2>
-                            <p>80% Min.</p>
-                            <div class="menu-cocofiber-info">
-                                <div class="menu-cocofiber-links"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg-4 col-md-6 menu-cocofiber-item filter-app"
-                        data-aos="zoom-in"
-                        data-aos-duration="500"
-                        data-aos-offset="200"
-                    >
-                        <div class="menu-cocofiber-wrap text-center">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="120"
-                                height="120"
-                                fill="currentColor"
-                                class="bi bi-percent"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"
-                                />
-                            </svg>
-
-                            <h2>Volatile Matter</h2>
-                            <p>14,5% Max</p>
-                            <div class="menu-cocofiber-info">
-                                <div class="menu-cocofiber-links"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg-4 col-md-6 menu-cocofiber-item filter-app"
-                        data-aos="zoom-in"
-                        data-aos-duration="500"
-                        data-aos-offset="200"
-                    >
-                        <div class="menu-cocofiber-wrap text-center">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="120"
-                                height="120"
-                                fill="currentColor"
-                                class="bi bi-gear-fill"
-                                viewBox="0 0 16 16"
-                            >
-                                <path
-                                    d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
-                                />
-                            </svg>
-
-                            <h2>Colorific Value</h2>
-                            <p>7500 Kcal Min.</p>
+                            <h2>Colour</h2>
+                            <p>Golden Brown</p>
                             <div class="menu-cocofiber-info">
                                 <div class="menu-cocofiber-links"></div>
                             </div>
@@ -243,7 +189,6 @@
                     data-aos-offset="200"
                 >
                     <h2>F.A.Q</h2>
-                    <h3>Frequently Asked <span>Questions</span></h3>
                 </div>
 
                 <ul class="faq-list">
@@ -257,7 +202,7 @@
                             class="collapsed question"
                             href="#faq1"
                         >
-                            Could We Get Free Sample?
+                            How many quantity you could produce each month ?
                             <i class="bi bi-chevron-down icon-show"></i
                             ><i class="bi bi-chevron-up icon-close"></i>
                         </div>
@@ -266,11 +211,7 @@
                             class="collapse"
                             data-bs-parent=".faq-list"
                         >
-                            <p>
-                                Yes, you could. The sample is absolutely free,
-                                all you need to pay is only the shipping cost to
-                                your country.
-                            </p>
+                            <p>We could produce up to 200 tons monthly</p>
                         </div>
                     </li>
 
@@ -284,7 +225,7 @@
                             href="#faq2"
                             class="collapsed question"
                         >
-                            How Much Is The Lead Time ?
+                            How much is the minimun of quantity for ordering ?
                             <i class="bi bi-chevron-down icon-show"></i
                             ><i class="bi bi-chevron-up icon-close"></i>
                         </div>
@@ -294,8 +235,8 @@
                             data-bs-parent=".faq-list"
                         >
                             <p>
-                                We could supply up to four (4) 40ft container in
-                                a month or six (6) 20ft container in a month.
+                                MOQ is 20ft container which can loads up to 10
+                                tons
                             </p>
                         </div>
                     </li>
@@ -310,8 +251,7 @@
                             href="#faq3"
                             class="collapsed question"
                         >
-                            How Much Is The Minimum Of Quantity For Your Product
-                            ?
+                            How do you ship the goods ?
                             <i class="bi bi-chevron-down icon-show"></i
                             ><i class="bi bi-chevron-up icon-close"></i>
                         </div>
@@ -320,89 +260,7 @@
                             class="collapse"
                             data-bs-parent=".faq-list"
                         >
-                            <p>
-                                MOQ is 20ft container which can loads 18 tons
-                                charcoal.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li
-                        data-aos-duration="1000"
-                        data-aos-offset="200"
-                        data-aos="fade-left"
-                    >
-                        <div
-                            data-bs-toggle="collapse"
-                            href="#faq4"
-                            class="collapsed question"
-                        >
-                            COULD WE HAVE OUR OWN CUSTOM DESIGN AND BRAND FOR
-                            THE PACKAGING? ?
-                            <i class="bi bi-chevron-down icon-show"></i
-                            ><i class="bi bi-chevron-up icon-close"></i>
-                        </div>
-                        <div
-                            id="faq3"
-                            class="collapse"
-                            data-bs-parent=".faq-list"
-                        >
-                            <p>
-                                Yes, of course. We do accept any design you are
-                                going to use and provide the packaging based on
-                                your custom size and design.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li
-                        data-aos-duration="1000"
-                        data-aos-offset="200"
-                        data-aos="fade-right"
-                    >
-                        <div
-                            data-bs-toggle="collapse"
-                            href="#faq5"
-                            class="collapsed question"
-                        >
-                            what Is The Payment Term?
-                            <i class="bi bi-chevron-down icon-show"></i
-                            ><i class="bi bi-chevron-up icon-close"></i>
-                        </div>
-                        <div
-                            id="faq3"
-                            class="collapse"
-                            data-bs-parent=".faq-list"
-                        >
-                            <p>We do accept T/T and L/C.</p>
-                        </div>
-                    </li>
-
-                    <li
-                        data-aos-duration="1000"
-                        data-aos-offset="200"
-                        data-aos="fade-left"
-                    >
-                        <div
-                            data-bs-toggle="collapse"
-                            href="#faq6"
-                            class="collapsed question"
-                        >
-                            Could We Visit The Factory ?
-                            <i class="bi bi-chevron-down icon-show"></i
-                            ><i class="bi bi-chevron-up icon-close"></i>
-                        </div>
-                        <div
-                            id="faq3"
-                            class="collapse"
-                            data-bs-parent=".faq-list"
-                        >
-                            <p>
-                                Yes, you could. We would welcome you any time at
-                                our door. Please kindly chat us on whatsapp to
-                                book your appointment for factory visit at any
-                                time you want.
-                            </p>
+                            <p>We pack and ship it in bales</p>
                         </div>
                     </li>
                 </ul>

@@ -29222,7 +29222,7 @@ var render = function () {
           _c(
             "div",
             {
-              staticClass: "col-lg-4 col-md-6 menu-cocofiber-item filter-app",
+              staticClass: "col-lg-3 col-md-6 menu-cocofiber-item filter-app",
               attrs: {
                 "data-aos": "zoom-in",
                 "data-aos-duration": "500",
@@ -29252,9 +29252,9 @@ var render = function () {
                   ]
                 ),
                 _vm._v(" "),
-                _c("h2", [_vm._v("Ash Content")]),
+                _c("h2", [_vm._v("Fiber Length")]),
                 _vm._v(" "),
-                _c("p", [_vm._v("2,5% Max")]),
+                _c("p", [_vm._v("15 - 25cm")]),
                 _vm._v(" "),
                 _vm._m(2),
               ]),
@@ -29264,7 +29264,7 @@ var render = function () {
           _c(
             "div",
             {
-              staticClass: "col-lg-4 col-md-6 menu-cocofiber-item filter-app",
+              staticClass: "col-lg-3 col-md-6 menu-cocofiber-item filter-app",
               attrs: {
                 "data-aos": "zoom-in",
                 "data-aos-duration": "500",
@@ -29294,9 +29294,9 @@ var render = function () {
                   ]
                 ),
                 _vm._v(" "),
-                _c("h2", [_vm._v("ASH Colour")]),
+                _c("h2", [_vm._v("Moisture")]),
                 _vm._v(" "),
-                _c("p", [_vm._v("White/Grey")]),
+                _c("p", [_vm._v("+- 18 %")]),
                 _vm._v(" "),
                 _vm._m(3),
               ]),
@@ -29306,7 +29306,7 @@ var render = function () {
           _c(
             "div",
             {
-              staticClass: "col-lg-4 col-md-6 menu-cocofiber-item filter-app",
+              staticClass: "col-lg-3 col-md-6 menu-cocofiber-item filter-app",
               attrs: {
                 "data-aos": "zoom-in",
                 "data-aos-duration": "500",
@@ -29336,7 +29336,7 @@ var render = function () {
                   ]
                 ),
                 _vm._v(" "),
-                _c("h2", [_vm._v("Moisture")]),
+                _c("h2", [_vm._v("Impurity")]),
                 _vm._v(" "),
                 _c("p", [_vm._v("5% Max.")]),
                 _vm._v(" "),
@@ -29348,7 +29348,7 @@ var render = function () {
           _c(
             "div",
             {
-              staticClass: "col-lg-4 col-md-6 menu-cocofiber-item filter-app",
+              staticClass: "col-lg-3 col-md-6 menu-cocofiber-item filter-app",
               attrs: {
                 "data-aos": "zoom-in",
                 "data-aos-duration": "500",
@@ -29378,95 +29378,11 @@ var render = function () {
                   ]
                 ),
                 _vm._v(" "),
-                _c("h2", [_vm._v("Fix Carbon")]),
+                _c("h2", [_vm._v("Colour")]),
                 _vm._v(" "),
-                _c("p", [_vm._v("80% Min.")]),
+                _c("p", [_vm._v("Golden Brown")]),
                 _vm._v(" "),
                 _vm._m(5),
-              ]),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "col-lg-4 col-md-6 menu-cocofiber-item filter-app",
-              attrs: {
-                "data-aos": "zoom-in",
-                "data-aos-duration": "500",
-                "data-aos-offset": "200",
-              },
-            },
-            [
-              _c("div", { staticClass: "menu-cocofiber-wrap text-center" }, [
-                _c(
-                  "svg",
-                  {
-                    staticClass: "bi bi-percent",
-                    attrs: {
-                      xmlns: "http://www.w3.org/2000/svg",
-                      width: "120",
-                      height: "120",
-                      fill: "currentColor",
-                      viewBox: "0 0 16 16",
-                    },
-                  },
-                  [
-                    _c("path", {
-                      attrs: {
-                        d: "M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z",
-                      },
-                    }),
-                  ]
-                ),
-                _vm._v(" "),
-                _c("h2", [_vm._v("Volatile Matter")]),
-                _vm._v(" "),
-                _c("p", [_vm._v("14,5% Max")]),
-                _vm._v(" "),
-                _vm._m(6),
-              ]),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "col-lg-4 col-md-6 menu-cocofiber-item filter-app",
-              attrs: {
-                "data-aos": "zoom-in",
-                "data-aos-duration": "500",
-                "data-aos-offset": "200",
-              },
-            },
-            [
-              _c("div", { staticClass: "menu-cocofiber-wrap text-center" }, [
-                _c(
-                  "svg",
-                  {
-                    staticClass: "bi bi-gear-fill",
-                    attrs: {
-                      xmlns: "http://www.w3.org/2000/svg",
-                      width: "120",
-                      height: "120",
-                      fill: "currentColor",
-                      viewBox: "0 0 16 16",
-                    },
-                  },
-                  [
-                    _c("path", {
-                      attrs: {
-                        d: "M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z",
-                      },
-                    }),
-                  ]
-                ),
-                _vm._v(" "),
-                _c("h2", [_vm._v("Colorific Value")]),
-                _vm._v(" "),
-                _c("p", [_vm._v("7500 Kcal Min.")]),
-                _vm._v(" "),
-                _vm._m(7),
               ]),
             ]
           ),
@@ -29474,7 +29390,7 @@ var render = function () {
       ]),
     ]),
     _vm._v(" "),
-    _vm._m(8),
+    _vm._m(6),
   ])
 }
 var staticRenderFns = [
@@ -29610,22 +29526,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "menu-cocofiber-info" }, [
-      _c("div", { staticClass: "menu-cocofiber-links" }),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "menu-cocofiber-info" }, [
-      _c("div", { staticClass: "menu-cocofiber-links" }),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("section", { staticClass: "faq", attrs: { id: "faq" } }, [
       _c("div", { staticClass: "container" }, [
         _c(
@@ -29638,14 +29538,7 @@ var staticRenderFns = [
               "data-aos-offset": "200",
             },
           },
-          [
-            _c("h2", [_vm._v("F.A.Q")]),
-            _vm._v(" "),
-            _c("h3", [
-              _vm._v("Frequently Asked "),
-              _c("span", [_vm._v("Questions")]),
-            ]),
-          ]
+          [_c("h2", [_vm._v("F.A.Q")])]
         ),
         _vm._v(" "),
         _c("ul", { staticClass: "faq-list" }, [
@@ -29667,7 +29560,7 @@ var staticRenderFns = [
                 },
                 [
                   _vm._v(
-                    "\n                        Could We Get Free Sample?\n                        "
+                    "\n                        How many quantity you could produce each month ?\n                        "
                   ),
                   _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
                   _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
@@ -29680,13 +29573,7 @@ var staticRenderFns = [
                   staticClass: "collapse",
                   attrs: { id: "faq1", "data-bs-parent": ".faq-list" },
                 },
-                [
-                  _c("p", [
-                    _vm._v(
-                      "\n                            Yes, you could. The sample is absolutely free,\n                            all you need to pay is only the shipping cost to\n                            your country.\n                        "
-                    ),
-                  ]),
-                ]
+                [_c("p", [_vm._v("We could produce up to 200 tons monthly")])]
               ),
             ]
           ),
@@ -29709,7 +29596,7 @@ var staticRenderFns = [
                 },
                 [
                   _vm._v(
-                    "\n                        How Much Is The Lead Time ?\n                        "
+                    "\n                        How much is the minimun of quantity for ordering ?\n                        "
                   ),
                   _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
                   _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
@@ -29725,7 +29612,7 @@ var staticRenderFns = [
                 [
                   _c("p", [
                     _vm._v(
-                      "\n                            We could supply up to four (4) 40ft container in\n                            a month or six (6) 20ft container in a month.\n                        "
+                      "\n                            MOQ is 20ft container which can loads up to 10\n                            tons\n                        "
                     ),
                   ]),
                 ]
@@ -29751,7 +29638,7 @@ var staticRenderFns = [
                 },
                 [
                   _vm._v(
-                    "\n                        How Much Is The Minimum Of Quantity For Your Product\n                        ?\n                        "
+                    "\n                        How do you ship the goods ?\n                        "
                   ),
                   _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
                   _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
@@ -29764,133 +29651,7 @@ var staticRenderFns = [
                   staticClass: "collapse",
                   attrs: { id: "faq3", "data-bs-parent": ".faq-list" },
                 },
-                [
-                  _c("p", [
-                    _vm._v(
-                      "\n                            MOQ is 20ft container which can loads 18 tons\n                            charcoal.\n                        "
-                    ),
-                  ]),
-                ]
-              ),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            {
-              attrs: {
-                "data-aos-duration": "1000",
-                "data-aos-offset": "200",
-                "data-aos": "fade-left",
-              },
-            },
-            [
-              _c(
-                "div",
-                {
-                  staticClass: "collapsed question",
-                  attrs: { "data-bs-toggle": "collapse", href: "#faq4" },
-                },
-                [
-                  _vm._v(
-                    "\n                        COULD WE HAVE OUR OWN CUSTOM DESIGN AND BRAND FOR\n                        THE PACKAGING? ?\n                        "
-                  ),
-                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
-                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "collapse",
-                  attrs: { id: "faq3", "data-bs-parent": ".faq-list" },
-                },
-                [
-                  _c("p", [
-                    _vm._v(
-                      "\n                            Yes, of course. We do accept any design you are\n                            going to use and provide the packaging based on\n                            your custom size and design.\n                        "
-                    ),
-                  ]),
-                ]
-              ),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            {
-              attrs: {
-                "data-aos-duration": "1000",
-                "data-aos-offset": "200",
-                "data-aos": "fade-right",
-              },
-            },
-            [
-              _c(
-                "div",
-                {
-                  staticClass: "collapsed question",
-                  attrs: { "data-bs-toggle": "collapse", href: "#faq5" },
-                },
-                [
-                  _vm._v(
-                    "\n                        what Is The Payment Term?\n                        "
-                  ),
-                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
-                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "collapse",
-                  attrs: { id: "faq3", "data-bs-parent": ".faq-list" },
-                },
-                [_c("p", [_vm._v("We do accept T/T and L/C.")])]
-              ),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "li",
-            {
-              attrs: {
-                "data-aos-duration": "1000",
-                "data-aos-offset": "200",
-                "data-aos": "fade-left",
-              },
-            },
-            [
-              _c(
-                "div",
-                {
-                  staticClass: "collapsed question",
-                  attrs: { "data-bs-toggle": "collapse", href: "#faq6" },
-                },
-                [
-                  _vm._v(
-                    "\n                        Could We Visit The Factory ?\n                        "
-                  ),
-                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
-                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "collapse",
-                  attrs: { id: "faq3", "data-bs-parent": ".faq-list" },
-                },
-                [
-                  _c("p", [
-                    _vm._v(
-                      "\n                            Yes, you could. We would welcome you any time at\n                            our door. Please kindly chat us on whatsapp to\n                            book your appointment for factory visit at any\n                            time you want.\n                        "
-                    ),
-                  ]),
-                ]
+                [_c("p", [_vm._v("We pack and ship it in bales")])]
               ),
             ]
           ),
