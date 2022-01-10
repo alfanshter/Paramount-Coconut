@@ -190,6 +190,180 @@
         </section>
         <!-- End Our Product Pictures Section -->
 
+        <!-- ======= F.A.Q Section ======= -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <div
+                    class="section-title"
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                    data-aos-offset="200"
+                >
+                    <h2>F.A.Q</h2>
+                </div>
+
+                <ul class="faq-list">
+                    <li
+                        data-aos-duration="1000"
+                        data-aos-offset="200"
+                        data-aos="fade-right"
+                    >
+                        <div
+                            data-bs-toggle="collapse"
+                            class="collapsed question"
+                            href="#faq1"
+                        >
+                            Could We Get Free Sample ?
+                            <i class="bi bi-chevron-down icon-show"></i
+                            ><i class="bi bi-chevron-up icon-close"></i>
+                        </div>
+                        <div
+                            id="faq1"
+                            class="collapse"
+                            data-bs-parent=".faq-list"
+                        >
+                            <p>
+                                Yes, you could. The sample is absolutely free,
+                                all you need to pay is only the shipping cost to
+                                your country.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li
+                        data-aos-duration="1000"
+                        data-aos-offset="200"
+                        data-aos="fade-left"
+                    >
+                        <div
+                            data-bs-toggle="collapse"
+                            href="#faq2"
+                            class="collapsed question"
+                        >
+                            How Much Is The Lead Time ?
+                            <i class="bi bi-chevron-down icon-show"></i
+                            ><i class="bi bi-chevron-up icon-close"></i>
+                        </div>
+                        <div
+                            id="faq2"
+                            class="collapse"
+                            data-bs-parent=".faq-list"
+                        >
+                            <p>
+                                We could supply up to four (4) 40ft container in
+                                a month or six (6) 20ft container in a month.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li
+                        data-aos-duration="1000"
+                        data-aos-offset="200"
+                        data-aos="fade-right"
+                    >
+                        <div
+                            data-bs-toggle="collapse"
+                            href="#faq3"
+                            class="collapsed question"
+                        >
+                            How Much Is The Minimum Of Quantity For Your Product
+                            ?
+                            <i class="bi bi-chevron-down icon-show"></i
+                            ><i class="bi bi-chevron-up icon-close"></i>
+                        </div>
+                        <div
+                            id="faq3"
+                            class="collapse"
+                            data-bs-parent=".faq-list"
+                        >
+                            <p>
+                                MOQ is 20ft container which can loads 18 tons
+                                charcoal.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li
+                        data-aos-duration="1000"
+                        data-aos-offset="200"
+                        data-aos="fade-left"
+                    >
+                        <div
+                            data-bs-toggle="collapse"
+                            href="#faq4"
+                            class="collapsed question"
+                        >
+                            Could We Have Our Own Custom Design And Brand For
+                            The Packaging ?
+                            <i class="bi bi-chevron-down icon-show"></i
+                            ><i class="bi bi-chevron-up icon-close"></i>
+                        </div>
+                        <div
+                            id="faq4"
+                            class="collapse"
+                            data-bs-parent=".faq-list"
+                        >
+                            <p>
+                                MOQ is 20ft container which can loads 18 tons
+                                charcoal.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li
+                        data-aos-duration="1000"
+                        data-aos-offset="200"
+                        data-aos="fade-right"
+                    >
+                        <div
+                            data-bs-toggle="collapse"
+                            href="#faq5"
+                            class="collapsed question"
+                        >
+                            What Is The Payment Term ?
+                            <i class="bi bi-chevron-down icon-show"></i
+                            ><i class="bi bi-chevron-up icon-close"></i>
+                        </div>
+                        <div
+                            id="faq5"
+                            class="collapse"
+                            data-bs-parent=".faq-list"
+                        >
+                            <p>We do accept T/T and L/C.</p>
+                        </div>
+                    </li>
+
+                    <li
+                        data-aos-duration="1000"
+                        data-aos-offset="200"
+                        data-aos="fade-left"
+                    >
+                        <div
+                            data-bs-toggle="collapse"
+                            href="#faq6"
+                            class="collapsed question"
+                        >
+                            Could We Visit The Factory ?
+                            <i class="bi bi-chevron-down icon-show"></i
+                            ><i class="bi bi-chevron-up icon-close"></i>
+                        </div>
+                        <div
+                            id="faq6"
+                            class="collapse"
+                            data-bs-parent=".faq-list"
+                        >
+                            <p>
+                                Yes, you could. We would welcome you any time at
+                                our door. Please kindly chat us on whatsapp to
+                                book your appointment for factory visit at any
+                                time you want.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- End F.A.Q Section -->
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div class="container">

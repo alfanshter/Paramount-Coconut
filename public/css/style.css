@@ -2504,3 +2504,281 @@ section {
     color: #fff;
     text-decoration: none;
 }
+
+.btn-product {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.portfolio #portfolio-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 17px 9px 17px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #ede9e9;
+    border-radius: 50px;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+    color: #fff;
+    background: #6bb64a;
+}
+
+.portfolio #portfolio-flters li:last-child {
+    margin-right: 0;
+}
+
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.portfolio .portfolio-item img {
+    position: relative;
+    top: 0;
+    transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.portfolio .portfolio-item .portfolio-info {
+    left: 15px;
+    right: 15px;
+    bottom: -50px;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    background: #6bb64a;
+    padding: 15px 20px;
+}
+
+.portfolio .portfolio-item .portfolio-info h4 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.portfolio .portfolio-item .portfolio-info p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
+    position: absolute;
+    right: 50px;
+    font-size: 24px;
+    top: calc(50% - 18px);
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
+    color: #f7c2cc;
+}
+
+.portfolio .portfolio-item .portfolio-info .details-link {
+    right: 15px;
+}
+
+.portfolio .portfolio-item:hover img {
+    top: -30px;
+}
+
+.portfolio .portfolio-item:hover .portfolio-info {
+    opacity: 1;
+    bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Cocofiberpremium Details
+--------------------------------------------------------------*/
+.cocofiberpremium-details {
+    padding-top: 40px;
+}
+
+.cocofiberpremium-details .cocofiberpremium-details-slider img {
+    width: 100%;
+}
+
+.cocofiberpremium-details .cocofiberpremium-details-slider .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+}
+
+.cocofiberpremium-details
+    .cocofiberpremium-details-slider
+    .swiper-pagination
+    .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #6bb64a;
+}
+
+.cocofiberpremium-details
+    .cocofiberpremium-details-slider
+    .swiper-pagination
+    .swiper-pagination-bullet-active {
+    background-color: #6bb64a;
+}
+
+.cocofiberpremium-details .cocofiberpremium-info {
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba(73, 60, 62, 0.08);
+}
+
+.cocofiberpremium-details .cocofiberpremium-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.cocofiberpremium-details .cocofiberpremium-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.cocofiberpremium-details .cocofiberpremium-info ul li + li {
+    margin-top: 10px;
+}
+
+.cocofiberpremium-details .cocofiberpremium-description {
+    padding-top: 30px;
+}
+
+.cocofiberpremium-details .cocofiberpremium-description h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cocofiberpremium-details .cocofiberpremium-description p {
+    padding: 0;
+}
+
+.cocofiberpremium #cocofiberpremium-flters {
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.cocofiberpremium #cocofiberpremium-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 17px 9px 17px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #ede9e9;
+    border-radius: 50px;
+}
+
+.cocofiberpremium #cocofiberpremium-flters li:hover,
+.cocofiberpremium #cocofiberpremium-flters li.filter-active {
+    color: #fff;
+    background: #6bb64a;
+}
+
+.cocofiberpremium #cocofiberpremium-flters li:last-child {
+    margin-right: 0;
+}
+
+.cocofiberpremium .cocofiberpremium-item {
+    margin-bottom: 30px;
+
+    overflow: hidden;
+}
+
+.cocofiberpremium .cocofiberpremium-item img {
+    position: relative;
+    top: 0;
+    transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.cocofiberpremium .cocofiberpremium-item .cocofiberpremium-info {
+    left: 15px;
+    right: 15px;
+    bottom: -50px;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    background: #6bb64a;
+    padding: 15px 20px;
+}
+
+.cocofiberpremium .cocofiberpremium-item .cocofiberpremium-info h4 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cocofiberpremium .cocofiberpremium-item .cocofiberpremium-info p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.cocofiberpremium .cocofiberpremium-item .cocofiberpremium-info .preview-link,
+.cocofiberpremium .cocofiberpremium-item .cocofiberpremium-info .details-link {
+    position: absolute;
+    right: 50px;
+    font-size: 24px;
+    top: calc(50% - 18px);
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.cocofiberpremium
+    .cocofiberpremium-item
+    .cocofiberpremium-info
+    .preview-link:hover,
+.cocofiberpremium
+    .cocofiberpremium-item
+    .cocofiberpremium-info
+    .details-link:hover {
+    color: #f7c2cc;
+}
+
+.cocofiberpremium .cocofiberpremium-item .cocofiberpremium-info .details-link {
+    right: 15px;
+}
+
+.cocofiberpremium .cocofiberpremium-item:hover img {
+    top: -30px;
+}
+
+.cocofiberpremium .cocofiberpremium-item:hover .cocofiberpremium-info {
+    opacity: 1;
+    bottom: 0;
+}

@@ -29158,6 +29158,271 @@ var staticRenderFns = [
         ]
       ),
       _vm._v(" "),
+      _c("section", { staticClass: "faq", attrs: { id: "faq" } }, [
+        _c("div", { staticClass: "container" }, [
+          _c(
+            "div",
+            {
+              staticClass: "section-title",
+              attrs: {
+                "data-aos": "fade-up",
+                "data-aos-duration": "500",
+                "data-aos-offset": "200",
+              },
+            },
+            [_c("h2", [_vm._v("F.A.Q")])]
+          ),
+          _vm._v(" "),
+          _c("ul", { staticClass: "faq-list" }, [
+            _c(
+              "li",
+              {
+                attrs: {
+                  "data-aos-duration": "1000",
+                  "data-aos-offset": "200",
+                  "data-aos": "fade-right",
+                },
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapsed question",
+                    attrs: { "data-bs-toggle": "collapse", href: "#faq1" },
+                  },
+                  [
+                    _vm._v(
+                      "\n                        Could We Get Free Sample ?\n                        "
+                    ),
+                    _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                    _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "faq1", "data-bs-parent": ".faq-list" },
+                  },
+                  [
+                    _c("p", [
+                      _vm._v(
+                        "\n                            Yes, you could. The sample is absolutely free,\n                            all you need to pay is only the shipping cost to\n                            your country.\n                        "
+                      ),
+                    ]),
+                  ]
+                ),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {
+                attrs: {
+                  "data-aos-duration": "1000",
+                  "data-aos-offset": "200",
+                  "data-aos": "fade-left",
+                },
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapsed question",
+                    attrs: { "data-bs-toggle": "collapse", href: "#faq2" },
+                  },
+                  [
+                    _vm._v(
+                      "\n                        How Much Is The Lead Time ?\n                        "
+                    ),
+                    _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                    _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "faq2", "data-bs-parent": ".faq-list" },
+                  },
+                  [
+                    _c("p", [
+                      _vm._v(
+                        "\n                            We could supply up to four (4) 40ft container in\n                            a month or six (6) 20ft container in a month.\n                        "
+                      ),
+                    ]),
+                  ]
+                ),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {
+                attrs: {
+                  "data-aos-duration": "1000",
+                  "data-aos-offset": "200",
+                  "data-aos": "fade-right",
+                },
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapsed question",
+                    attrs: { "data-bs-toggle": "collapse", href: "#faq3" },
+                  },
+                  [
+                    _vm._v(
+                      "\n                        How Much Is The Minimum Of Quantity For Your Product\n                        ?\n                        "
+                    ),
+                    _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                    _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "faq3", "data-bs-parent": ".faq-list" },
+                  },
+                  [
+                    _c("p", [
+                      _vm._v(
+                        "\n                            MOQ is 20ft container which can loads 18 tons\n                            charcoal.\n                        "
+                      ),
+                    ]),
+                  ]
+                ),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {
+                attrs: {
+                  "data-aos-duration": "1000",
+                  "data-aos-offset": "200",
+                  "data-aos": "fade-left",
+                },
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapsed question",
+                    attrs: { "data-bs-toggle": "collapse", href: "#faq4" },
+                  },
+                  [
+                    _vm._v(
+                      "\n                        Could We Have Our Own Custom Design And Brand For\n                        The Packaging ?\n                        "
+                    ),
+                    _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                    _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "faq4", "data-bs-parent": ".faq-list" },
+                  },
+                  [
+                    _c("p", [
+                      _vm._v(
+                        "\n                            MOQ is 20ft container which can loads 18 tons\n                            charcoal.\n                        "
+                      ),
+                    ]),
+                  ]
+                ),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {
+                attrs: {
+                  "data-aos-duration": "1000",
+                  "data-aos-offset": "200",
+                  "data-aos": "fade-right",
+                },
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapsed question",
+                    attrs: { "data-bs-toggle": "collapse", href: "#faq5" },
+                  },
+                  [
+                    _vm._v(
+                      "\n                        What Is The Payment Term ?\n                        "
+                    ),
+                    _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                    _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "faq5", "data-bs-parent": ".faq-list" },
+                  },
+                  [_c("p", [_vm._v("We do accept T/T and L/C.")])]
+                ),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {
+                attrs: {
+                  "data-aos-duration": "1000",
+                  "data-aos-offset": "200",
+                  "data-aos": "fade-left",
+                },
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapsed question",
+                    attrs: { "data-bs-toggle": "collapse", href: "#faq6" },
+                  },
+                  [
+                    _vm._v(
+                      "\n                        Could We Visit The Factory ?\n                        "
+                    ),
+                    _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                    _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "collapse",
+                    attrs: { id: "faq6", "data-bs-parent": ".faq-list" },
+                  },
+                  [
+                    _c("p", [
+                      _vm._v(
+                        "\n                            Yes, you could. We would welcome you any time at\n                            our door. Please kindly chat us on whatsapp to\n                            book your appointment for factory visit at any\n                            time you want.\n                        "
+                      ),
+                    ]),
+                  ]
+                ),
+              ]
+            ),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
       _c("section", { staticClass: "contact", attrs: { id: "contact" } }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "section-title" }, [
@@ -29400,7 +29665,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "section",
-      { staticClass: "testimonials", attrs: { id: "testimonials" } },
+      { staticClass: "cocofiberpremium", attrs: { id: "testimonials" } },
       [
         _c("div", { staticClass: "container" }, [
           _c(
@@ -29411,57 +29676,50 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("h3", [
                 _vm._v("Our Premium "),
-                _c("span", [_vm._v("Charcoal")]),
+                _c("span", [_vm._v("Coco Fiber")]),
               ]),
             ]
           ),
           _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "testimonials-slider swiper",
-              attrs: { "data-aos": "fade-up", "data-aos-delay": "100" },
-            },
-            [
-              _c("div", { staticClass: "swiper-wrapper" }, [
-                _c("div", { staticClass: "swiper-slide" }, [
-                  _c("div", { staticClass: "kotak-charcoal" }, [
-                    _c("img", {
-                      staticClass: "d-block w-100",
-                      attrs: {
-                        src: "img/cocofiber/image0.jpeg",
-                        alt: "...",
-                        height: "100%",
-                      },
-                    }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "kotak-info" }, [
-                      _c("p", [_vm._v("Coco Fiber")]),
-                    ]),
-                  ]),
-                ]),
+          _c("div", { staticClass: "row cocofiberpremium-container" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-6 col-md-6 cocofiberpremium-item filter-app",
+                attrs: { "data-aos": "fade-right" },
+              },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: { src: "img/cocofiber/image0.jpeg", alt: "" },
+                }),
                 _vm._v(" "),
-                _c("div", { staticClass: "swiper-slide" }, [
-                  _c("div", { staticClass: "kotak-charcoal" }, [
-                    _c("img", {
-                      staticClass: "d-block w-100",
-                      attrs: {
-                        src: "img/cocofiber/image1.jpeg",
-                        alt: "...",
-                        height: "100%",
-                      },
-                    }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "kotak-info" }, [
-                      _c("p", [_vm._v("Coco Fiber")]),
-                    ]),
-                  ]),
+                _c("div", { staticClass: "cocofiberpremium-info" }, [
+                  _c("p", [_vm._v("Coco Fiber")]),
                 ]),
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "swiper-pagination" }),
-            ]
-          ),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-6 col-md-6 cocofiberpremium-item filter-app",
+                attrs: { "data-aos": "fade-right" },
+              },
+              [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: { src: "img/cocofiber/image1.jpeg", alt: "" },
+                }),
+                _vm._v(" "),
+                _c("div", { staticClass: "cocofiberpremium-info" }, [
+                  _c("p", [_vm._v("Coco Fiber")]),
+                ]),
+              ]
+            ),
+          ]),
         ]),
       ]
     )
@@ -29480,14 +29738,7 @@ var staticRenderFns = [
           "data-aos-offset": "200",
         },
       },
-      [
-        _c("h2", [_vm._v("BRIQUETTE")]),
-        _vm._v(" "),
-        _c("h3", [
-          _vm._v("COCONUT CHARCOAL"),
-          _c("span", [_vm._v("BRIQUETTE")]),
-        ]),
-      ]
+      [_c("h2", [_vm._v("SPECIFICATION")])]
     )
   },
   function () {
@@ -29738,8 +29989,6 @@ var render = function () {
         _vm._m(3),
       ]),
     ]),
-    _vm._v(" "),
-    _vm._m(4),
   ])
 }
 var staticRenderFns = [
@@ -29955,36 +30204,6 @@ var staticRenderFns = [
           ]),
         ]
       ),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "contact", attrs: { id: "contact" } }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "section-title" }, [
-          _c("h2", [_vm._v("Location")]),
-          _vm._v(" "),
-          _c("h3", [
-            _vm._v(
-              "\n                    Click to see factory location in\n                    "
-            ),
-            _c("span", [_vm._v("Google Maps")]),
-          ]),
-        ]),
-        _vm._v(" "),
-        _c("div", [
-          _c("iframe", {
-            staticStyle: { border: "0", width: "100%", height: "270px" },
-            attrs: {
-              src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.5119200718186!2d108.1746641147744!3d-7.18227489481446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f4f497519ccb1%3A0x2b88345d4aae224b!2sCv%20Mandiri%20Persada!5e0!3m2!1sen!2sid!4v1640295084311!5m2!1sen!2sid",
-              frameborder: "0",
-              allowfullscreen: "",
-            },
-          }),
-        ]),
-      ]),
     ])
   },
 ]

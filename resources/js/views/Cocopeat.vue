@@ -160,28 +160,5 @@
             </div>
         </section>
         <!-- End Portfolio Section -->
-
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Location</h2>
-                    <h3>
-                        Click to see factory location in
-                        <span>Google Maps</span>
-                    </h3>
-                </div>
-
-                <div>
-                    <iframe
-                        style="border: 0; width: 100%; height: 270px"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.5119200718186!2d108.1746641147744!3d-7.18227489481446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f4f497519ccb1%3A0x2b88345d4aae224b!2sCv%20Mandiri%20Persada!5e0!3m2!1sen!2sid!4v1640295084311!5m2!1sen!2sid"
-                        frameborder="0"
-                        allowfullscreen
-                    ></iframe>
-                </div>
-            </div>
-        </section>
-        <!-- End Contact Section -->
     </main>
 </template>

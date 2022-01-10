@@ -3,50 +3,41 @@
         <br /><br />
 
         <!-- ======= Our Product Pictures Section ======= -->
-        <section id="testimonials" class="testimonials">
+        <section id="testimonials" class="cocofiberpremium">
             <div class="container">
                 <div class="section-title" data-aos="fade-up">
                     <h2>Products</h2>
-                    <h3>Our Premium <span>Charcoal</span></h3>
+                    <h3>Our Premium <span>Coco Fiber</span></h3>
                 </div>
 
-                <div
-                    class="testimonials-slider swiper"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                >
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="kotak-charcoal">
-                                <img
-                                    src="img/cocofiber/image0.jpeg"
-                                    class="d-block w-100"
-                                    alt="..."
-                                    height="100%"
-                                />
-                                <div class="kotak-info">
-                                    <p>Coco Fiber</p>
-                                </div>
-                            </div>
+                <div class="row cocofiberpremium-container">
+                    <div
+                        class="col-lg-6 col-md-6 cocofiberpremium-item filter-app"
+                        data-aos="fade-right"
+                    >
+                        <img
+                            src="img/cocofiber/image0.jpeg"
+                            class="img-fluid"
+                            alt=""
+                        />
+                        <div class="cocofiberpremium-info">
+                            <p>Coco Fiber</p>
                         </div>
-                        <!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="kotak-charcoal">
-                                <img
-                                    src="img/cocofiber/image1.jpeg"
-                                    class="d-block w-100"
-                                    alt="..."
-                                    height="100%"
-                                />
-                                <div class="kotak-info">
-                                    <p>Coco Fiber</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End testimonial item -->
                     </div>
-                    <div class="swiper-pagination"></div>
+
+                    <div
+                        class="col-lg-6 col-md-6 cocofiberpremium-item filter-app"
+                        data-aos="fade-right"
+                    >
+                        <img
+                            src="img/cocofiber/image1.jpeg"
+                            class="img-fluid"
+                            alt=""
+                        />
+                        <div class="cocofiberpremium-info">
+                            <p>Coco Fiber</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -61,8 +52,7 @@
                     data-aos-duration="500"
                     data-aos-offset="200"
                 >
-                    <h2>BRIQUETTE</h2>
-                    <h3>COCONUT CHARCOAL<span>BRIQUETTE</span></h3>
+                    <h2>SPECIFICATION</h2>
                 </div>
 
                 <div class="row menu-cocofiber-container">
