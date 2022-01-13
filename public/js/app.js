@@ -29334,7 +29334,7 @@ var staticRenderFns = [
                   [
                     _c("p", [
                       _vm._v(
-                        "\n                            MOQ is 20ft container which can loads 18 tons\n                            charcoal.\n                        "
+                        "\n                            Yes, of course. We do accept any design you are\n                            going to use and provide the packaging based on\n                            your custom size and design.\n                        "
                       ),
                     ]),
                   ]
@@ -29957,6 +29957,51 @@ var render = function () {
                 _c(
                   "svg",
                   {
+                    staticClass: "bi bi-arrow-down-circle",
+                    attrs: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      width: "120",
+                      height: "120",
+                      fill: "currentColor",
+                      viewBox: "0 0 16 16",
+                    },
+                  },
+                  [
+                    _c("path", {
+                      attrs: {
+                        "fill-rule": "evenodd",
+                        d: "M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z",
+                      },
+                    }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c("h2", [_vm._v("Low EC")]),
+                _vm._v(" "),
+                _vm._m(1),
+              ]),
+              _vm._v(" "),
+              _vm._m(2),
+            ]
+          ),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row menu-cocopeat-container" }, [
+          _c(
+            "div",
+            {
+              staticClass: "menu-cocopeat-item filter-app",
+              attrs: {
+                "data-aos": "zoom-in",
+                "data-aos-duration": "3000",
+                "data-aos-offset": "200",
+              },
+            },
+            [
+              _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
+                _c(
+                  "svg",
+                  {
                     staticClass: "bi bi-arrow-up-circle",
                     attrs: {
                       xmlns: "http://www.w3.org/2000/svg",
@@ -29976,19 +30021,21 @@ var render = function () {
                   ]
                 ),
                 _vm._v(" "),
-                _c("h2", [_vm._v("High EC")]),
+                _c("h2", [_vm._v("High EC (>1 mS/cm)")]),
                 _vm._v(" "),
-                _vm._m(1),
+                _vm._m(3),
               ]),
               _vm._v(" "),
-              _vm._m(2),
+              _vm._m(4),
             ]
           ),
         ]),
-        _vm._v(" "),
-        _vm._m(3),
       ]),
     ]),
+    _vm._v(" "),
+    _vm._m(5),
+    _vm._v(" "),
+    _vm._m(6),
   ])
 }
 var staticRenderFns = [
@@ -30009,7 +30056,7 @@ var staticRenderFns = [
       [
         _c("h2", [_vm._v("Products")]),
         _vm._v(" "),
-        _c("h3", [_vm._v("Our Premium "), _c("span", [_vm._v("Coco Fiber")])]),
+        _c("h3", [_vm._v("Our Premium "), _c("span", [_vm._v("Coco Peat")])]),
       ]
     )
   },
@@ -30040,7 +30087,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", [
           _vm._v(
-            "\n                            High water holding capacity makes it an ideal\n                            growing medium for the plant crops. Its 100%\n                            organic and eco friendly, free from soil borne\n                            patoghen and weed.\n                        "
+            "\n                            High water holding capacity makes it an ideal\n                            growing medium for the plant crops. Its 100%\n                            organic and eco friendly, free from soil borne\n                            patoghen and weed. Highly recommended for\n                            hydroponic and anthurium.\n                        "
           ),
         ]),
       ]
@@ -30050,160 +30097,471 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row menu-cocopeat-container" }, [
-      _c(
-        "div",
-        {
-          staticClass: "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
-          attrs: {
-            "data-aos": "zoom-in",
-            "data-aos-duration": "500",
-            "data-aos-offset": "200",
+    return _c("div", { staticClass: "menu-cocopeat-info" }, [
+      _c("div", { staticClass: "menu-cocopeat-links" }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "paragraf",
+        attrs: { "data-aos": "fade-up", "data-aos-duration": "3000" },
+      },
+      [
+        _c("p", [
+          _vm._v(
+            "\n                            High EC coco peat is used as bedding in animal\n                            farms. it's ideal as bedding due to its moisture\n                            absorbing quality, which keeps farm clean and\n                            dry because it absorbs animal waste\n                        "
+          ),
+        ]),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "menu-cocopeat" }, [
+      _c("div", { staticClass: "container" }, [
+        _c(
+          "div",
+          {
+            staticClass: "section-title",
+            attrs: {
+              "data-aos": "fade-up",
+              "data-aos-duration": "500",
+              "data-aos-offset": "200",
+            },
           },
-        },
-        [
-          _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
-            _c("img", {
-              attrs: {
-                src: "img/cocopeat/10.png",
-                alt: "",
-                width: "120",
-                height: "120",
-              },
-            }),
+          [
+            _c("h2", [_vm._v("Specification")]),
             _vm._v(" "),
-            _c("p", [_vm._v("Could be used for more than 10 years")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "menu-cocopeat-info" }, [
-              _c("div", { staticClass: "menu-cocopeat-links" }),
+            _c("h3", [
+              _vm._v("Specification "),
+              _c("span", [_vm._v("Coco Peat")]),
             ]),
-          ]),
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
-          attrs: {
-            "data-aos": "zoom-in",
-            "data-aos-duration": "500",
-            "data-aos-offset": "200",
-          },
-        },
-        [
-          _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
-            _c("img", {
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "row menu-cocopeat-container" }, [
+          _c(
+            "div",
+            {
+              staticClass: "menu-cocopeat-item filter-app",
               attrs: {
-                src: "img/cocopeat/recommended.png",
-                alt: "",
-                width: "120",
-                height: "120",
+                "data-aos": "zoom-in",
+                "data-aos-duration": "3000",
+                "data-aos-offset": "200",
               },
-            }),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                            Highly recommended for hydroponic and anthurium\n                        "
+            },
+            [
+              _c("div", { staticClass: "row menu-cocopeat-container" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
+                    attrs: {
+                      "data-aos": "zoom-in",
+                      "data-aos-duration": "500",
+                      "data-aos-offset": "200",
+                    },
+                  },
+                  [
+                    _c(
+                      "div",
+                      { staticClass: "menu-cocopeat-wrap text-center" },
+                      [
+                        _c("img", {
+                          attrs: {
+                            src: "img/cocopeat/10.png",
+                            alt: "",
+                            width: "120",
+                            height: "120",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v("Could be used for more than 10 years"),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "menu-cocopeat-info" }, [
+                          _c("div", { staticClass: "menu-cocopeat-links" }),
+                        ]),
+                      ]
+                    ),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
+                    attrs: {
+                      "data-aos": "zoom-in",
+                      "data-aos-duration": "500",
+                      "data-aos-offset": "200",
+                    },
+                  },
+                  [
+                    _c(
+                      "div",
+                      { staticClass: "menu-cocopeat-wrap text-center" },
+                      [
+                        _c("img", {
+                          attrs: {
+                            src: "img/cocopeat/friend.png",
+                            alt: "",
+                            width: "120",
+                            height: "120",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Environmental Friendly")]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "menu-cocopeat-info" }, [
+                          _c("div", { staticClass: "menu-cocopeat-links" }),
+                        ]),
+                      ]
+                    ),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
+                    attrs: {
+                      "data-aos": "zoom-in",
+                      "data-aos-duration": "500",
+                      "data-aos-offset": "200",
+                    },
+                  },
+                  [
+                    _c(
+                      "div",
+                      { staticClass: "menu-cocopeat-wrap text-center" },
+                      [
+                        _c("img", {
+                          attrs: {
+                            src: "img/cocopeat/moisture.png",
+                            alt: "",
+                            width: "120",
+                            height: "120",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Moisture 15-20%")]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "menu-cocopeat-info" }, [
+                          _c("div", { staticClass: "menu-cocopeat-links" }),
+                        ]),
+                      ]
+                    ),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "col-lg-12 col-md-6 menu-cocopeat-item filter-app",
+                    attrs: {
+                      "data-aos": "zoom-in",
+                      "data-aos-duration": "500",
+                      "data-aos-offset": "200",
+                    },
+                  },
+                  [
+                    _c(
+                      "div",
+                      { staticClass: "menu-cocopeat-wrap text-center" },
+                      [
+                        _c("img", {
+                          attrs: {
+                            src: "img/cocopeat/ph.png",
+                            alt: "",
+                            width: "120",
+                            height: "120",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Ph 5.8 - 6.8")]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "menu-cocopeat-info" }, [
+                          _c("div", { staticClass: "menu-cocopeat-links" }),
+                        ]),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+            ]
+          ),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "faq", attrs: { id: "faq" } }, [
+      _c("div", { staticClass: "container" }, [
+        _c(
+          "div",
+          {
+            staticClass: "section-title",
+            attrs: {
+              "data-aos": "fade-up",
+              "data-aos-duration": "500",
+              "data-aos-offset": "200",
+            },
+          },
+          [_c("h2", [_vm._v("F.A.Q")])]
+        ),
+        _vm._v(" "),
+        _c("ul", { staticClass: "faq-list" }, [
+          _c(
+            "li",
+            {
+              attrs: {
+                "data-aos-duration": "1000",
+                "data-aos-offset": "200",
+                "data-aos": "fade-right",
+              },
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "collapsed question",
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq1" },
+                },
+                [
+                  _vm._v(
+                    "\n                        How many quantity you could produce each month ?\n                        "
+                  ),
+                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                ]
               ),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "menu-cocopeat-info" }, [
-              _c("div", { staticClass: "menu-cocopeat-links" }),
-            ]),
-          ]),
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
-          attrs: {
-            "data-aos": "zoom-in",
-            "data-aos-duration": "500",
-            "data-aos-offset": "200",
-          },
-        },
-        [
-          _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
-            _c("img", {
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: { id: "faq1", "data-bs-parent": ".faq-list" },
+                },
+                [_c("p", [_vm._v("We could produce up to 200 tons monthly")])]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            {
               attrs: {
-                src: "img/cocopeat/friend.png",
-                alt: "",
-                width: "120",
-                height: "120",
+                "data-aos-duration": "1000",
+                "data-aos-offset": "200",
+                "data-aos": "fade-left",
               },
-            }),
-            _vm._v(" "),
-            _c("p", [_vm._v("Environmental Friendly")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "menu-cocopeat-info" }, [
-              _c("div", { staticClass: "menu-cocopeat-links" }),
-            ]),
-          ]),
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-lg-6 col-md-6 menu-cocopeat-item filter-app",
-          attrs: {
-            "data-aos": "zoom-in",
-            "data-aos-duration": "500",
-            "data-aos-offset": "200",
-          },
-        },
-        [
-          _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
-            _c("img", {
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "collapsed question",
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq2" },
+                },
+                [
+                  _vm._v(
+                    "\n                        How much is the minimum of quantity for ordering ?\n                        "
+                  ),
+                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: { id: "faq2", "data-bs-parent": ".faq-list" },
+                },
+                [
+                  _c("p", [
+                    _vm._v(
+                      "\n                            MOQ is 20ft container which can loads up to 10\n                            -12 tons\n                        "
+                    ),
+                  ]),
+                ]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            {
               attrs: {
-                src: "img/cocopeat/ph.png",
-                alt: "",
-                width: "120",
-                height: "120",
+                "data-aos-duration": "1000",
+                "data-aos-offset": "200",
+                "data-aos": "fade-right",
               },
-            }),
-            _vm._v(" "),
-            _c("p", [_vm._v("Neutral PH")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "menu-cocopeat-info" }, [
-              _c("div", { staticClass: "menu-cocopeat-links" }),
-            ]),
-          ]),
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-lg-6 col-md-6 menu-cocopeat-item filter-app",
-          attrs: {
-            "data-aos": "zoom-in",
-            "data-aos-duration": "500",
-            "data-aos-offset": "200",
-          },
-        },
-        [
-          _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
-            _c("img", {
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "collapsed question",
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq3" },
+                },
+                [
+                  _vm._v(
+                    "\n                        How do you ship the goods ?\n                        "
+                  ),
+                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: { id: "faq3", "data-bs-parent": ".faq-list" },
+                },
+                [_c("p", [_vm._v("We pack and ship it in plastics / blocks")])]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            {
               attrs: {
-                src: "img/cocopeat/growth.png",
-                alt: "",
-                width: "120",
-                height: "120",
+                "data-aos-duration": "1000",
+                "data-aos-offset": "200",
+                "data-aos": "fade-left",
               },
-            }),
-            _vm._v(" "),
-            _c("p", [_vm._v("Help root growth quickly")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "menu-cocopeat-info" }, [
-              _c("div", { staticClass: "menu-cocopeat-links" }),
-            ]),
-          ]),
-        ]
-      ),
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "collapsed question",
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq4" },
+                },
+                [
+                  _vm._v(
+                    "\n                        How to measure the EC of cocopeat ?\n                        "
+                  ),
+                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: { id: "faq4", "data-bs-parent": ".faq-list" },
+                },
+                [
+                  _c("p", [
+                    _vm._v(
+                      "\n                            EC (Electrical Conductivity) is measured by a\n                            calibrated hand held EC meter so we can know\n                            either the coco peat low EC or High EC\n                        "
+                    ),
+                  ]),
+                ]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            {
+              attrs: {
+                "data-aos-duration": "1000",
+                "data-aos-offset": "200",
+                "data-aos": "fade-right",
+              },
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "collapsed question",
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq5" },
+                },
+                [
+                  _vm._v(
+                    "\n                        What Is The Payment Term ?\n                        "
+                  ),
+                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: { id: "faq5", "data-bs-parent": ".faq-list" },
+                },
+                [_c("p", [_vm._v("We do accept T/T and L/C.")])]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            {
+              attrs: {
+                "data-aos-duration": "1000",
+                "data-aos-offset": "200",
+                "data-aos": "fade-left",
+              },
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "collapsed question",
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq6" },
+                },
+                [
+                  _vm._v(
+                    "\n                        Could We Visit The Factory ?\n                        "
+                  ),
+                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: { id: "faq6", "data-bs-parent": ".faq-list" },
+                },
+                [
+                  _c("p", [
+                    _vm._v(
+                      "\n                            Yes, you could. We would welcome you any time at\n                            our door. Please kindly chat us on whatsapp to\n                            book your appointment for factory visit at any\n                            time you want.\n                        "
+                    ),
+                  ]),
+                ]
+              ),
+            ]
+          ),
+        ]),
+      ]),
     ])
   },
 ]

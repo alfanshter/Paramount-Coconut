@@ -304,8 +304,9 @@
                             data-bs-parent=".faq-list"
                         >
                             <p>
-                                MOQ is 20ft container which can loads 18 tons
-                                charcoal.
+                                Yes, of course. We do accept any design you are
+                                going to use and provide the packaging based on
+                                your custom size and design.
                             </p>
                         </div>
                     </li>
