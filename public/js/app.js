@@ -28705,7 +28705,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "me-md-auto text-center text-md-start" }, [
           _c("div", { staticClass: "copyright" }, [
             _vm._v("\n                    © Copyright\n                    "),
-            _c("strong", [_c("span", [_vm._v("Paramounts Coconut")])]),
+            _c("strong", [_c("span", [_vm._v("Paramount Coconuts")])]),
             _vm._v(". All Rights Reserved\n                "),
           ]),
           _vm._v(" "),
@@ -28806,7 +28806,7 @@ var staticRenderFns = [
                   },
                   [
                     _vm._v(
-                      "\n                        Paramount Coconut is a Private Company that has been\n                        exported coconut products since 2015. We start first\n                        at exporting coconut charcoal globally at 2015. we\n                        again a lot of orders also customer's satisfaction\n                        in these whole years. So in 2021, we start to build\n                        another factory for coconut products that focus on\n                        coconut fiber and coconut peat to expand our\n                        business in this field. We will start to export it\n                        at 2022. We believe we will have good reputation too\n                        in this product as we have before in charcoal.\n                    "
+                      "\n                        Paramount Coconuts is a Private Company that has\n                        been exported coconut products since 2015. We start\n                        first at exporting coconut charcoal globally at\n                        2015. we again a lot of orders also customer's\n                        satisfaction in these whole years. So in 2021, we\n                        start to build another factory for coconut products\n                        that focus on coconut fiber and coconut peat to\n                        expand our business in this field. We will start to\n                        export it at 2022. We believe we will have good\n                        reputation too in this product as we have before in\n                        charcoal.\n                    "
                     ),
                   ]
                 ),
@@ -29847,7 +29847,7 @@ var staticRenderFns = [
                 },
                 [
                   _vm._v(
-                    "\n                        How much is the minimun of quantity for ordering ?\n                        "
+                    "\n                        How much is the minimum of quantity for ordering ?\n                        "
                   ),
                   _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
                   _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
@@ -29903,6 +29903,84 @@ var staticRenderFns = [
                   attrs: { id: "faq3", "data-bs-parent": ".faq-list" },
                 },
                 [_c("p", [_vm._v("We pack and ship it in bales")])]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            {
+              attrs: {
+                "data-aos-duration": "1000",
+                "data-aos-offset": "200",
+                "data-aos": "fade-right",
+              },
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "collapsed question",
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq5" },
+                },
+                [
+                  _vm._v(
+                    "\n                        What Is The Payment Term ?\n                        "
+                  ),
+                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: { id: "faq5", "data-bs-parent": ".faq-list" },
+                },
+                [_c("p", [_vm._v("We do accept T/T and L/C.")])]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            {
+              attrs: {
+                "data-aos-duration": "1000",
+                "data-aos-offset": "200",
+                "data-aos": "fade-left",
+              },
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "collapsed question",
+                  attrs: { "data-bs-toggle": "collapse", href: "#faq6" },
+                },
+                [
+                  _vm._v(
+                    "\n                        Could We Visit The Factory ?\n                        "
+                  ),
+                  _c("i", { staticClass: "bi bi-chevron-down icon-show" }),
+                  _c("i", { staticClass: "bi bi-chevron-up icon-close" }),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: { id: "faq6", "data-bs-parent": ".faq-list" },
+                },
+                [
+                  _c("p", [
+                    _vm._v(
+                      "\n                            Yes, you could. We would welcome you any time at\n                            our door. Please kindly chat us on whatsapp to\n                            book your appointment for factory visit at any\n                            time you want.\n                        "
+                    ),
+                  ]),
+                ]
               ),
             ]
           ),
@@ -29976,7 +30054,7 @@ var render = function () {
                   ]
                 ),
                 _vm._v(" "),
-                _c("h2", [_vm._v("Low EC")]),
+                _c("h2", [_vm._v("Low EC (<1mS/cm)")]),
                 _vm._v(" "),
                 _vm._m(1),
               ]),

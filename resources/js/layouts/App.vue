@@ -65,7 +65,7 @@
                 <div class="me-md-auto text-center text-md-start">
                     <div class="copyright">
                         &copy; Copyright
-                        <strong><span>Paramounts Coconut</span></strong
+                        <strong><span>Paramount Coconuts</span></strong
                         >. All Rights Reserved
                     </div>
                     <div class="credits">

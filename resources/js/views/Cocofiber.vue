@@ -215,7 +215,7 @@
                             href="#faq2"
                             class="collapsed question"
                         >
-                            How much is the minimun of quantity for ordering ?
+                            How much is the minimum of quantity for ordering ?
                             <i class="bi bi-chevron-down icon-show"></i
                             ><i class="bi bi-chevron-up icon-close"></i>
                         </div>
@@ -251,6 +251,56 @@
                             data-bs-parent=".faq-list"
                         >
                             <p>We pack and ship it in bales</p>
+                        </div>
+                    </li>
+                    <li
+                        data-aos-duration="1000"
+                        data-aos-offset="200"
+                        data-aos="fade-right"
+                    >
+                        <div
+                            data-bs-toggle="collapse"
+                            href="#faq5"
+                            class="collapsed question"
+                        >
+                            What Is The Payment Term ?
+                            <i class="bi bi-chevron-down icon-show"></i
+                            ><i class="bi bi-chevron-up icon-close"></i>
+                        </div>
+                        <div
+                            id="faq5"
+                            class="collapse"
+                            data-bs-parent=".faq-list"
+                        >
+                            <p>We do accept T/T and L/C.</p>
+                        </div>
+                    </li>
+
+                    <li
+                        data-aos-duration="1000"
+                        data-aos-offset="200"
+                        data-aos="fade-left"
+                    >
+                        <div
+                            data-bs-toggle="collapse"
+                            href="#faq6"
+                            class="collapsed question"
+                        >
+                            Could We Visit The Factory ?
+                            <i class="bi bi-chevron-down icon-show"></i
+                            ><i class="bi bi-chevron-up icon-close"></i>
+                        </div>
+                        <div
+                            id="faq6"
+                            class="collapse"
+                            data-bs-parent=".faq-list"
+                        >
+                            <p>
+                                Yes, you could. We would welcome you any time at
+                                our door. Please kindly chat us on whatsapp to
+                                book your appointment for factory visit at any
+                                time you want.
+                            </p>
                         </div>
                     </li>
                 </ul>

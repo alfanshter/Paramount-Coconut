@@ -19,16 +19,17 @@
                             data-aos="fade-up"
                             data-aos-duration="1000"
                         >
-                            Paramount Coconut is a Private Company that has been
-                            exported coconut products since 2015. We start first
-                            at exporting coconut charcoal globally at 2015. we
-                            again a lot of orders also customer's satisfaction
-                            in these whole years. So in 2021, we start to build
-                            another factory for coconut products that focus on
-                            coconut fiber and coconut peat to expand our
-                            business in this field. We will start to export it
-                            at 2022. We believe we will have good reputation too
-                            in this product as we have before in charcoal.
+                            Paramount Coconuts is a Private Company that has
+                            been exported coconut products since 2015. We start
+                            first at exporting coconut charcoal globally at
+                            2015. we again a lot of orders also customer's
+                            satisfaction in these whole years. So in 2021, we
+                            start to build another factory for coconut products
+                            that focus on coconut fiber and coconut peat to
+                            expand our business in this field. We will start to
+                            export it at 2022. We believe we will have good
+                            reputation too in this product as we have before in
+                            charcoal.
                         </p>
                     </div>
                 </div>
