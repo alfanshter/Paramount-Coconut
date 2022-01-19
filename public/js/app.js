@@ -28926,58 +28926,7 @@ var render = function () {
             },
             [
               _c("div", { staticClass: "row menu-cocopeat-container" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
-                    attrs: {
-                      "data-aos": "zoom-in",
-                      "data-aos-duration": "500",
-                      "data-aos-offset": "200",
-                    },
-                  },
-                  [
-                    _c(
-                      "div",
-                      { staticClass: "menu-cocopeat-wrap text-center" },
-                      [
-                        _c(
-                          "svg",
-                          {
-                            staticClass: "bi bi-hdd-rack",
-                            attrs: {
-                              xmlns: "http://www.w3.org/2000/svg",
-                              width: "120",
-                              height: "120",
-                              fill: "currentColor",
-                              viewBox: "0 0 16 16",
-                            },
-                          },
-                          [
-                            _c("path", {
-                              attrs: {
-                                d: "M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm2 7a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z",
-                              },
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d: "M2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h1v2H2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2h-1V7h1a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm0 7v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-3-4v2H4V7h8z",
-                              },
-                            }),
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("h2", [_vm._v("Ash Content")]),
-                        _vm._v(" "),
-                        _c("p", [_vm._v("2.5% Max.")]),
-                        _vm._v(" "),
-                        _vm._m(2),
-                      ]
-                    ),
-                  ]
-                ),
+                _vm._m(2),
                 _vm._v(" "),
                 _c(
                   "div",
@@ -29067,7 +29016,7 @@ var render = function () {
                         _vm._v(" "),
                         _c("h2", [_vm._v("Fix Carbon")]),
                         _vm._v(" "),
-                        _c("p", [_vm._v("80% Min.")]),
+                        _c("p", [_vm._v("80% Max.")]),
                         _vm._v(" "),
                         _vm._m(5),
                       ]
@@ -29272,9 +29221,37 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "menu-cocopeat-info" }, [
-      _c("div", { staticClass: "menu-cocopeat-links" }),
-    ])
+    return _c(
+      "div",
+      {
+        staticClass: "col-lg-4 col-md-6 menu-cocopeat-item filter-app",
+        attrs: {
+          "data-aos": "zoom-in",
+          "data-aos-duration": "500",
+          "data-aos-offset": "200",
+        },
+      },
+      [
+        _c("div", { staticClass: "menu-cocopeat-wrap text-center" }, [
+          _c("img", {
+            attrs: {
+              src: "img/cocopeat/balance.png",
+              alt: "",
+              width: "120",
+              height: "120",
+            },
+          }),
+          _vm._v(" "),
+          _c("h2", [_vm._v("Ash Content")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("2.5% Max.")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "menu-cocopeat-info" }, [
+            _c("div", { staticClass: "menu-cocopeat-links" }),
+          ]),
+        ]),
+      ]
+    )
   },
   function () {
     var _vm = this
