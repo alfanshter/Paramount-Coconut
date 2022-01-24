@@ -1,3 +1,41 @@
+<script>
+    export default{
+        methods : {
+            scrollTop (){
+                document.body.scrollTop = 0; //Safari Browser
+                document.documentElement.scrollTop = 0; // Chrome Browser
+                $('.mobile-nav-toggle').click();
+            },
+            recompileSlider(){
+                new Swiper(".testimonials-slider", {
+                    speed: 600,
+                    loop: true,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
+                    slidesPerView: "auto",
+                    pagination: {
+                        el: ".swiper-pagination",
+                        type: "bullets",
+                        clickable: true,
+                    },
+                    breakpoints: {
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+
+                        1200: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                    },
+                });
+            }
+        }
+    }
+</script>
 <template>
     <div class="body-color">
         <!-- ======= Header ======= -->
@@ -13,7 +51,7 @@
 
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li>
+                        <li @click="scrollTop()">
                             <router-link
                                 :to="{ name: 'home' }"
                                 class="nav-link"
@@ -21,7 +59,7 @@
                                 Home
                             </router-link>
                         </li>
-                        <li>
+                        <li @click="scrollTop()">
                             <router-link
                                 :to="{ name: 'about' }"
                                 class="nav-link"
@@ -29,21 +67,32 @@
                                 About Us
                             </router-link>
                         </li>
-                        <li>
-                            <a class="nav-link scrollto" href="/cocofiber"
-                                >Coco Fiber</a
+                        <li @click="scrollTop()">
+                            <router-link
+                                :to="{ name: 'cocofiber'}"
+                                class="nav-link"
                             >
+                                Coco Fiber
+                            </router-link>
                         </li>
-                        <li>
-                            <a class="nav-link scrollto" href="/cocopeat"
-                                >Coco Peat</a
+                        <li @click="scrollTop()">
+                            <router-link
+                                :to="{ name: 'cocopeat'}"
+                                class="nav-link"
                             >
+                                Coco Peat
+                            </router-link>
                         </li>
-                        <li>
-                            <a href="/charcoal" class="nav-link">Charcoal</a>
-                        </li>
+                        <li @click="scrollTop(),recompileSlider()">
+                            <router-link
+                                :to="{ name: 'charcoal'}"
+                                class="nav-link"
+                            >
+                                Charcoal
+                            </router-link>
 
-                        <li>
+                        </li>
+                        <li >
                             <a class="nav-link scrollto" href="#contact"
                                 >Contact Us</a
                             >

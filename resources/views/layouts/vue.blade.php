@@ -7,9 +7,10 @@
     <title>Paramount Coconuts</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <title>Paramount Coconuts</title>
-    <meta content="Paramount coconuts is a family business that main focused is manufacturing and exporting coconut charcoal, coconut fiber, and coconut peat. We have been exporting since 2015 and keep expanding the business worldwide." name="description" />
+    <meta content="Tester Paramount coconuts is a family business that main focused is manufacturing and exporting coconut charcoal, coconut fiber, and coconut peat. We have been exporting since 2015 and keep expanding the business worldwide." name="description" />
     <meta content="charcoal,cocofiber,cocopeat" name="keywords" />
 
+<link rel="shortcut icon" href="{{asset('img/logo.png')}}">
 <link rel="apple-touch-icon" sizes="57x57" href="{{asset('img/metalogo/apple-icon-57x57.png')}}">
 <link rel="apple-touch-icon" sizes="60x60" href="{{asset('img/metalogo/apple-icon-60x60.png')}}">
 <link rel="apple-touch-icon" sizes="72x72" href="{{asset('img/metalogo/apple-icon-72x72.png')}}">
@@ -27,6 +28,7 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="{{asset('img/metalogo/ms-icon-144x144.png')}}">
 <meta name="theme-color" content="#ffffff">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Favicons -->
     <link href="{{asset('img/logo.png')}}" rel="icon" />
