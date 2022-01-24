@@ -5260,7 +5260,7 @@ __webpack_require__.r(__webpack_exports__);
 
       document.documentElement.scrollTop = 0; // Chrome Browser
 
-      $('.mobile-nav-toggle').click();
+      $('.bi-x').click();
     },
     recompileSlider: function recompileSlider() {
       new Swiper(".testimonials-slider", {

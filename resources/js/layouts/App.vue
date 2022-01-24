@@ -4,7 +4,7 @@
             scrollTop (){
                 document.body.scrollTop = 0; //Safari Browser
                 document.documentElement.scrollTop = 0; // Chrome Browser
-                $('.mobile-nav-toggle').click();
+                $('.bi-x').click();
             },
             recompileSlider(){
                 new Swiper(".testimonials-slider", {
